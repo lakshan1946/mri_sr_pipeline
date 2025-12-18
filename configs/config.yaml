@@ -21,7 +21,7 @@ preprocessing:
 
   normalization:
     method: "whitestripe" # Options: whitestripe, zscore
-    modality: "T1"
+    modality: "T2"
 
 simulation:
   target_resolution_z: 5.0 # Simulate 5mm slice thickness
