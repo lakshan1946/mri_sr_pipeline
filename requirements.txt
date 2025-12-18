@@ -1,0 +1,10 @@
+numpy>=1.21.0
+nibabel>=3.2.1
+monai>=1.0.0
+antspyx>=0.3.0
+pyyaml
+scikit-image
+simpleitk
+tqdm
+fire
+matplotlib

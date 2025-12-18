@@ -1,0 +1,15 @@
+# Data
+data/
+*.nii
+*.nii.gz
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.ipynb_checkpoints/
