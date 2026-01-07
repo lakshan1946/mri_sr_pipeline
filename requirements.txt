@@ -8,3 +8,5 @@ simpleitk
 tqdm
 fire
 matplotlib
+torch>=1.9.0
+HD-BET
