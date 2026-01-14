@@ -122,8 +122,8 @@ class MRIPreprocessingPipeline:
                 self._save_intermediate(raw_img, filename, '00_brain_extracted')
             
             # 3. Reorient to Standard System (RAS/LPI)
-            raw_img = ants.reorient_image2(raw_img, orientation='RAI') 
-            self._save_intermediate(raw_img, filename, '01_raw_reoriented') 
+            raw_img = ants.reorient_image2(raw_img, orientation='RAI') # Remove this
+            self._save_intermediate(raw_img, filename, '01_raw_reoriented')
 
             # ---------------- HR PIPELINE ----------------
             self.logger.info("Processing HR path...")
